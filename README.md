@@ -20,7 +20,7 @@ http://localhost:3333/docs
 3. Sempre que uma nota for cadastrada, envie um e-mail para o usuário (o conteúdo do e-mail não é relevante, apenas envie uma string "nota criada")
    3.1. Você pode utilizar o Mailtrap para testar.
 
-## User History
+## User Story
 
 O usuário deve conseguir salvar uma nota, com o título e a descrição (opcional). Ele também deve ter acesso à data de criação desta nota.
 
