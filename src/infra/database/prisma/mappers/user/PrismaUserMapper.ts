@@ -1,7 +1,10 @@
 import { User } from '../../../../../modules/user/entities/User';
-import { User as UserRaw } from '@prisma/client';
+import { PrismaClient, User as UserRaw } from '@prisma/client';
+
+const prisma = new PrismaClient();
 
 export class PrismaUserMapper {
+  
   static toPrisma({
     createdAt,
     email,
